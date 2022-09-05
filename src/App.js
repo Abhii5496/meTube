@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import {Navbar, Feed, ChannelDetail, VideoDetail, SearchFeed} from './components'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path='/channel/:id'  element={<ChannelDetail />} />
                 <Route path='/search/:searchTerm'  element={<SearchFeed />} />
             </Routes>
+            <Footer/>
         </Box>
     </BrowserRouter>
   )

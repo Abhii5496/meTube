@@ -22,7 +22,7 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <Typography className='copyright' variant='body2' sx={{mt:1.5, color:'white'}}>
+        <Typography className='copyright' variant='body2' sx={{mt:1.5, color:'white', textAlign:'center', fontSize:"10px"}}>
           Copyright 2022 Abhii
         </Typography>
       </Box>
